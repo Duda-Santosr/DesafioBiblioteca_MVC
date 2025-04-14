@@ -6,7 +6,7 @@ echo "<h2> Biblioteca De Livros:</h2> <ul>";
 
 foreach($livros as $livro){
 
-echo "<li>{$livro['titulo']} - {$livro ['autora']} - {$livro ['ano']}</li>";
+echo "<li> Título - ".$livro['titulo']." - Autora ". $livro ['autora'] ." - Ano " . $livro ['ano'] ."</li>";
 
 }
 
